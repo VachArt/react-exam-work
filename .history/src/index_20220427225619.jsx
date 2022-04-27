@@ -1,0 +1,17 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import Home from './components/pages/Home/Home'
+import About from './components/pages/About/About'
+import Layout from './components/layout/Layout'
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Layout>
+      <Home />
+      <About />
+    </Layout>
+  </React.StrictMode>
+);
+
